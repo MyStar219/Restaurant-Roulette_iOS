@@ -1,0 +1,16 @@
+PODS:
+  - OMGHTTPURLRQ/UserAgent (3.1.1)
+  - TDOAuth (1.1.2):
+    - OMGHTTPURLRQ/UserAgent
+  - UberRides (0.3.1)
+
+DEPENDENCIES:
+  - TDOAuth (~> 1.1)
+  - UberRides
+
+SPEC CHECKSUMS:
+  OMGHTTPURLRQ: 633f98ee745aeda02345935a52eec1784cddb589
+  TDOAuth: f7e356e834295b83c7b5066ee72a30f128c5f722
+  UberRides: db7aead2e9c853fe481ac4dee03643fb274e884e
+
+COCOAPODS: 0.39.0

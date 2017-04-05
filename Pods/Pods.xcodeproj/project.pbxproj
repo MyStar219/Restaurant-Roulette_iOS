@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0275CEBFD0B44F972845F6DC2B029D67 /* UberRides-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBB82E582F872BA6E04822A942674CC /* UberRides-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C00EE90FA42EA6A6E1EEB92F344AF53 /* OMGHTTPURLRQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75F46F4F9502E6083B23006DA7EF9D8 /* OMGHTTPURLRQ.framework */; };
+		3D0A786DAF3E4C58E0B71E688002FADA /* RequestDeeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52941A903F1CFA69B7E30A71B050A324 /* RequestDeeplink.swift */; };
+		3F192317B700624E2AC2637C9BD029CF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851F49A021209E36C37028D7E407C6A4 /* Media.xcassets */; };
+		44C6BBEF863EB357B794FD1FC9B980EA /* Pods-Restaurant Roulette-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 705EA8278E8B774388E21EEB6B877D92 /* Pods-Restaurant Roulette-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E5A86156F60ABCEF2E22A0B6EAB746 /* TDOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA7931F59427E4BA5B3900B6F78D633 /* TDOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E67401855CD22F7F1694E051E6A04D /* OMGHTTPURLRQ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2ED6F42B628F1FC0CA47CC359057128 /* OMGHTTPURLRQ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C8FD2E1AB5F61F7FB566ED2B8199C0 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DB3C2B5333BCE5E7EC3F266BFCA1C2BD /* zh-Hant.lproj */; };
+		6B690294A18B6AF2BDF3FC68DAFC968D /* Pods-Restaurant Roulette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40CFD820B75EF709D04C1D3254431A66 /* Pods-Restaurant Roulette-dummy.m */; };
+		7D58F8B13B9830A580DF0B5E96947FC2 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 59DBD27495088CDA4972BC26EB35586E /* zh-Hans.lproj */; };
+		83108CF51633C2BDB98287D2E9731106 /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F0FC2AEB3D83A1A3B9A5B8AF42039 /* ColorUtil.swift */; };
+		83A2FA9A612C93769624146CF31284B6 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CBDB2EC55AC5F81DDFA15ECFF2663C6D /* en.lproj */; };
+		8E1E45B731E47BDFDEEA9EDAA0ED32EC /* RidesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF19840D2F69EB17A1328C7B47FDC78 /* RidesClient.swift */; };
+		91495A0B7A6E7D85F62B440C532E5962 /* TDOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608F02F11D3AB7265234E8A465DE780D /* TDOAuth-dummy.m */; };
+		918DE9AE17AF99EEA9403AC89BB2A29F /* TDOAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8105F7B06D8BC8AD9D65320FFB2FA005 /* TDOAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		921760F32F8D63F597530DB6D6C23BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BC4E61E3C400E302C930E2BB1F9237 /* Foundation.framework */; };
+		9523054124CD88EECF7EA6D7BBF83BDB /* OMGUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EA085F39EC58CDFA7FD26149C48021 /* OMGUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9811B7764A35016E56A8D94887812671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BC4E61E3C400E302C930E2BB1F9237 /* Foundation.framework */; };
+		BF3E3ED390D49EF38321EB7DB27A6D67 /* UberRides-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D94844C85167BA7193F6A5CC2F03BF0 /* UberRides-dummy.m */; };
+		C9AFFBFCA44ADBAAEBD13A4CD1EA3703 /* RequestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC296C4A6F5ECEEA85C7EC85937B6C74 /* RequestButton.swift */; };
+		D0AC2B47437888EB065DE81B3A371075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BC4E61E3C400E302C930E2BB1F9237 /* Foundation.framework */; };
+		D3C791840CCF0ABD39E1BCA2B0FE2952 /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D707F956E063B215F38F9F54D7854EFA /* OMGUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D4178CBF7C0355EF79E8102238849EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BC4E61E3C400E302C930E2BB1F9237 /* Foundation.framework */; };
+		D6D299A2A4355B90CA4729B7B2491556 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6313581E8FB0AAC0EB13756BE6E83D /* TDOAuth.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9A272897F8CC74CB7B33D6D91BFCDB6 /* OMGHTTPURLRQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C68B6769761F0CC870F8AE85E9292174 /* OMGHTTPURLRQ-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2032B9779E353CA02616382D40EC993A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68A4AF58153CA3E0E6D0B203F496A01;
+			remoteInfo = UberRides;
+		};
+		A89BD990EDA56D4402A1399747E67554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA119F35D4F6B91994A8BEA51405A4C9;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		D4C0281A4753F8068454C9A25AE3B470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EDB53838A0C5CC1A75207ADC5BBA6B;
+			remoteInfo = TDOAuth;
+		};
+		ECD6E2EF1DE2CFE3BD24A26C9925BE9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA119F35D4F6B91994A8BEA51405A4C9;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10160A793EE97D5243B78321F68722BF /* UberRides.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UberRides.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102ACBCFEF283E04AA0CCDE6AAF1D1A8 /* TDOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TDOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA7931F59427E4BA5B3900B6F78D633 /* TDOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
+		256FB807C180BF446023C6B1F0997FEA /* Pods-Restaurant Roulette-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Restaurant Roulette-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25BC4E61E3C400E302C930E2BB1F9237 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		327ABB719C39B7CC7C11AF1D801A1C0D /* TDOAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TDOAuth.modulemap; sourceTree = "<group>"; };
+		39E16688A0851275C28FDD7CCD4B8ADE /* Pods-Restaurant Roulette.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Restaurant Roulette.modulemap"; sourceTree = "<group>"; };
+		40CFD820B75EF709D04C1D3254431A66 /* Pods-Restaurant Roulette-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Restaurant Roulette-dummy.m"; sourceTree = "<group>"; };
+		41DEB39C3FFC6901F4DFD416F38BCF66 /* UberRides.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UberRides.xcconfig; sourceTree = "<group>"; };
+		42AFA17716D87C285A6EEE29A5F08D5C /* OMGHTTPURLRQ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMGHTTPURLRQ.xcconfig; sourceTree = "<group>"; };
+		52941A903F1CFA69B7E30A71B050A324 /* RequestDeeplink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDeeplink.swift; path = source/UberRides/RequestDeeplink.swift; sourceTree = "<group>"; };
+		59DBD27495088CDA4972BC26EB35586E /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "source/UberRides/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		5D94844C85167BA7193F6A5CC2F03BF0 /* UberRides-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UberRides-dummy.m"; sourceTree = "<group>"; };
+		608F02F11D3AB7265234E8A465DE780D /* TDOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDOAuth-dummy.m"; sourceTree = "<group>"; };
+		705EA8278E8B774388E21EEB6B877D92 /* Pods-Restaurant Roulette-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Restaurant Roulette-umbrella.h"; sourceTree = "<group>"; };
+		7209CCF8D43C99A998CCB38320334ADF /* UberRides-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberRides-prefix.pch"; sourceTree = "<group>"; };
+		72A7BC04F34708905DED0B75697F293A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E593A90D13CFA42B7C272097DED955 /* OMGHTTPURLRQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMGHTTPURLRQ-prefix.pch"; sourceTree = "<group>"; };
+		7C6A81FD82D7A2D0F5F4313FF0B96F48 /* OMGHTTPURLRQ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OMGHTTPURLRQ.modulemap; sourceTree = "<group>"; };
+		8105F7B06D8BC8AD9D65320FFB2FA005 /* TDOAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDOAuth-umbrella.h"; sourceTree = "<group>"; };
+		851F49A021209E36C37028D7E407C6A4 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = source/UberRides/Resources/Media.xcassets; sourceTree = "<group>"; };
+		8520793347FDFBC4E1B65CAF5DF5AD84 /* Pods-Restaurant Roulette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Restaurant Roulette.release.xcconfig"; sourceTree = "<group>"; };
+		8DF3FF4428DC0C907DAEC21A2F050948 /* Pods-Restaurant Roulette-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Restaurant Roulette-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B53F80DA1928423BDE704F3FCC9F70E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2886DFE1A65C0AEA12E2BCC435765B /* Pods-Restaurant Roulette-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Restaurant Roulette-resources.sh"; sourceTree = "<group>"; };
+		9EF19840D2F69EB17A1328C7B47FDC78 /* RidesClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RidesClient.swift; path = source/UberRides/RidesClient.swift; sourceTree = "<group>"; };
+		A05991067E4A876CC75E0E1187AA5232 /* TDOAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDOAuth.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAB8513ECBA4ABD607F76F406DFB7D67 /* UberRides.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UberRides.modulemap; sourceTree = "<group>"; };
+		BB334A50BFB8F1D11A2094F74AA50497 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2ED6F42B628F1FC0CA47CC359057128 /* OMGHTTPURLRQ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMGHTTPURLRQ-umbrella.h"; sourceTree = "<group>"; };
+		C68B6769761F0CC870F8AE85E9292174 /* OMGHTTPURLRQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMGHTTPURLRQ-dummy.m"; sourceTree = "<group>"; };
+		CBDB2EC55AC5F81DDFA15ECFF2663C6D /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = source/UberRides/Resources/en.lproj; sourceTree = "<group>"; };
+		CC6313581E8FB0AAC0EB13756BE6E83D /* TDOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
+		D5D480462AA1EE7FF3EE5C802EE8886C /* OMGHTTPURLRQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OMGHTTPURLRQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FE51818673D8CD35C07413F4FAB3F9 /* TDOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDOAuth-prefix.pch"; sourceTree = "<group>"; };
+		D707F956E063B215F38F9F54D7854EFA /* OMGUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGUserAgent.m; path = Sources/OMGUserAgent.m; sourceTree = "<group>"; };
+		D8DEB3193F130A11E29A955E0DF7C703 /* Pods-Restaurant Roulette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Restaurant Roulette.debug.xcconfig"; sourceTree = "<group>"; };
+		DB3C2B5333BCE5E7EC3F266BFCA1C2BD /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "source/UberRides/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		DC24AF3205A4A82F4ED940D75C8667AB /* Pods_Restaurant_Roulette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Restaurant_Roulette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBB82E582F872BA6E04822A942674CC /* UberRides-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UberRides-umbrella.h"; sourceTree = "<group>"; };
+		EC296C4A6F5ECEEA85C7EC85937B6C74 /* RequestButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestButton.swift; path = source/UberRides/RequestButton.swift; sourceTree = "<group>"; };
+		F0EA085F39EC58CDFA7FD26149C48021 /* OMGUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGUserAgent.h; path = Sources/OMGUserAgent.h; sourceTree = "<group>"; };
+		F75F46F4F9502E6083B23006DA7EF9D8 /* OMGHTTPURLRQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OMGHTTPURLRQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0AFE183865BF9D757D15D8482D4B88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB694E841BE5BA9304C17DFAA088EC5B /* Pods-Restaurant Roulette-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Restaurant Roulette-frameworks.sh"; sourceTree = "<group>"; };
+		FE8F0FC2AEB3D83A1A3B9A5B8AF42039 /* ColorUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorUtil.swift; path = source/UberRides/ColorUtil.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C328156E1AAEEF689089D88516962511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4178CBF7C0355EF79E8102238849EEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A5A5FBDA81C7C168EACB260659BD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AC2B47437888EB065DE81B3A371075 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAC8BB2812A65F24B03DA85128BDFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921760F32F8D63F597530DB6D6C23BAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10411BEC0C98BF1197762A3C8890F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9811B7764A35016E56A8D94887812671 /* Foundation.framework in Frameworks */,
+				3C00EE90FA42EA6A6E1EEB92F344AF53 /* OMGHTTPURLRQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37333B9493CA0004C390FBA4966EE96A /* Pods-Restaurant Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				9B53F80DA1928423BDE704F3FCC9F70E /* Info.plist */,
+				39E16688A0851275C28FDD7CCD4B8ADE /* Pods-Restaurant Roulette.modulemap */,
+				256FB807C180BF446023C6B1F0997FEA /* Pods-Restaurant Roulette-acknowledgements.markdown */,
+				8DF3FF4428DC0C907DAEC21A2F050948 /* Pods-Restaurant Roulette-acknowledgements.plist */,
+				40CFD820B75EF709D04C1D3254431A66 /* Pods-Restaurant Roulette-dummy.m */,
+				FB694E841BE5BA9304C17DFAA088EC5B /* Pods-Restaurant Roulette-frameworks.sh */,
+				9E2886DFE1A65C0AEA12E2BCC435765B /* Pods-Restaurant Roulette-resources.sh */,
+				705EA8278E8B774388E21EEB6B877D92 /* Pods-Restaurant Roulette-umbrella.h */,
+				D8DEB3193F130A11E29A955E0DF7C703 /* Pods-Restaurant Roulette.debug.xcconfig */,
+				8520793347FDFBC4E1B65CAF5DF5AD84 /* Pods-Restaurant Roulette.release.xcconfig */,
+			);
+			name = "Pods-Restaurant Roulette";
+			path = "Target Support Files/Pods-Restaurant Roulette";
+			sourceTree = "<group>";
+		};
+		4D1E176710A4F5C4A9AC3F8309A4FB47 /* UberRides */ = {
+			isa = PBXGroup;
+			children = (
+				FE8F0FC2AEB3D83A1A3B9A5B8AF42039 /* ColorUtil.swift */,
+				EC296C4A6F5ECEEA85C7EC85937B6C74 /* RequestButton.swift */,
+				52941A903F1CFA69B7E30A71B050A324 /* RequestDeeplink.swift */,
+				9EF19840D2F69EB17A1328C7B47FDC78 /* RidesClient.swift */,
+				CA5B6412C06685B5D2AA476D6E100F64 /* Resources */,
+				9CD8D96022FFF15C8C4C920E50CE1597 /* Support Files */,
+			);
+			path = UberRides;
+			sourceTree = "<group>";
+		};
+		79DC4036138AD046FE252A36E131A6C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5D480462AA1EE7FF3EE5C802EE8886C /* OMGHTTPURLRQ.framework */,
+				DC24AF3205A4A82F4ED940D75C8667AB /* Pods_Restaurant_Roulette.framework */,
+				102ACBCFEF283E04AA0CCDE6AAF1D1A8 /* TDOAuth.framework */,
+				10160A793EE97D5243B78321F68722BF /* UberRides.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A1238BAD9D855664549117BA186B1B1C /* Frameworks */,
+				C8246D9D223976A8294B6B3135D90A18 /* Pods */,
+				79DC4036138AD046FE252A36E131A6C0 /* Products */,
+				87DCD9CA45EE7D432C1CFC0DCCD507AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87DCD9CA45EE7D432C1CFC0DCCD507AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37333B9493CA0004C390FBA4966EE96A /* Pods-Restaurant Roulette */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		920E29FE030D75AF3028C000A68AABC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72A7BC04F34708905DED0B75697F293A /* Info.plist */,
+				7C6A81FD82D7A2D0F5F4313FF0B96F48 /* OMGHTTPURLRQ.modulemap */,
+				42AFA17716D87C285A6EEE29A5F08D5C /* OMGHTTPURLRQ.xcconfig */,
+				C68B6769761F0CC870F8AE85E9292174 /* OMGHTTPURLRQ-dummy.m */,
+				77E593A90D13CFA42B7C272097DED955 /* OMGHTTPURLRQ-prefix.pch */,
+				C2ED6F42B628F1FC0CA47CC359057128 /* OMGHTTPURLRQ-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OMGHTTPURLRQ";
+			sourceTree = "<group>";
+		};
+		936F78091245D4F0AB7CD5AB2AA9AA23 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				25BC4E61E3C400E302C930E2BB1F9237 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9CD8D96022FFF15C8C4C920E50CE1597 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA0AFE183865BF9D757D15D8482D4B88 /* Info.plist */,
+				BAB8513ECBA4ABD607F76F406DFB7D67 /* UberRides.modulemap */,
+				41DEB39C3FFC6901F4DFD416F38BCF66 /* UberRides.xcconfig */,
+				5D94844C85167BA7193F6A5CC2F03BF0 /* UberRides-dummy.m */,
+				7209CCF8D43C99A998CCB38320334ADF /* UberRides-prefix.pch */,
+				DDBB82E582F872BA6E04822A942674CC /* UberRides-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UberRides";
+			sourceTree = "<group>";
+		};
+		A1238BAD9D855664549117BA186B1B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F75F46F4F9502E6083B23006DA7EF9D8 /* OMGHTTPURLRQ.framework */,
+				936F78091245D4F0AB7CD5AB2AA9AA23 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8A665B6E9CF9A8909026FCBFF3E5EB0 /* UserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				F0EA085F39EC58CDFA7FD26149C48021 /* OMGUserAgent.h */,
+				D707F956E063B215F38F9F54D7854EFA /* OMGUserAgent.m */,
+			);
+			name = UserAgent;
+			sourceTree = "<group>";
+		};
+		C4A5B31CC269EB57734AC68B62439523 /* TDOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				1CA7931F59427E4BA5B3900B6F78D633 /* TDOAuth.h */,
+				CC6313581E8FB0AAC0EB13756BE6E83D /* TDOAuth.m */,
+				D06EF2D586854FC989F46BC491B58841 /* Support Files */,
+			);
+			path = TDOAuth;
+			sourceTree = "<group>";
+		};
+		C8246D9D223976A8294B6B3135D90A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF2E2CF8A567634E681CC3F8F1C757ED /* OMGHTTPURLRQ */,
+				C4A5B31CC269EB57734AC68B62439523 /* TDOAuth */,
+				4D1E176710A4F5C4A9AC3F8309A4FB47 /* UberRides */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA5B6412C06685B5D2AA476D6E100F64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBDB2EC55AC5F81DDFA15ECFF2663C6D /* en.lproj */,
+				851F49A021209E36C37028D7E407C6A4 /* Media.xcassets */,
+				59DBD27495088CDA4972BC26EB35586E /* zh-Hans.lproj */,
+				DB3C2B5333BCE5E7EC3F266BFCA1C2BD /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF2E2CF8A567634E681CC3F8F1C757ED /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				920E29FE030D75AF3028C000A68AABC2 /* Support Files */,
+				B8A665B6E9CF9A8909026FCBFF3E5EB0 /* UserAgent */,
+			);
+			path = OMGHTTPURLRQ;
+			sourceTree = "<group>";
+		};
+		D06EF2D586854FC989F46BC491B58841 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB334A50BFB8F1D11A2094F74AA50497 /* Info.plist */,
+				327ABB719C39B7CC7C11AF1D801A1C0D /* TDOAuth.modulemap */,
+				A05991067E4A876CC75E0E1187AA5232 /* TDOAuth.xcconfig */,
+				608F02F11D3AB7265234E8A465DE780D /* TDOAuth-dummy.m */,
+				D6FE51818673D8CD35C07413F4FAB3F9 /* TDOAuth-prefix.pch */,
+				8105F7B06D8BC8AD9D65320FFB2FA005 /* TDOAuth-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TDOAuth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66C99406536D781C19E246AB2BAA7998 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0275CEBFD0B44F972845F6DC2B029D67 /* UberRides-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF2C03D14B14BDAA5F26BB9ADDC223F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C6BBEF863EB357B794FD1FC9B980EA /* Pods-Restaurant Roulette-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F51D8FB15FD618171642FA7F98AA6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918DE9AE17AF99EEA9403AC89BB2A29F /* TDOAuth-umbrella.h in Headers */,
+				49E5A86156F60ABCEF2E22A0B6EAB746 /* TDOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B939DDA492EEB847DC85F90BF868470B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E67401855CD22F7F1694E051E6A04D /* OMGHTTPURLRQ-umbrella.h in Headers */,
+				9523054124CD88EECF7EA6D7BBF83BDB /* OMGUserAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45EDB53838A0C5CC1A75207ADC5BBA6B /* TDOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FD3A2ECB92125A45FA70DDAAD7FA99 /* Build configuration list for PBXNativeTarget "TDOAuth" */;
+			buildPhases = (
+				9B33368796D58B8B229F8C10ED6DA91B /* Sources */,
+				E10411BEC0C98BF1197762A3C8890F58 /* Frameworks */,
+				B8F51D8FB15FD618171642FA7F98AA6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41E5AAD22CBFEF33D1CC18DCAE93563F /* PBXTargetDependency */,
+			);
+			name = TDOAuth;
+			productName = TDOAuth;
+			productReference = 102ACBCFEF283E04AA0CCDE6AAF1D1A8 /* TDOAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95400D4C2B1F4157F236F4FB0224FD6C /* Pods-Restaurant Roulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F416C4FD947D97B9C23D41A1687C1B /* Build configuration list for PBXNativeTarget "Pods-Restaurant Roulette" */;
+			buildPhases = (
+				11D2B52AA71CF11B939FE53DD9B71211 /* Sources */,
+				C7A5A5FBDA81C7C168EACB260659BD78 /* Frameworks */,
+				9EF2C03D14B14BDAA5F26BB9ADDC223F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A944B69F6B313D06FBB1522E1B887057 /* PBXTargetDependency */,
+				16D58175312BE244FF39A19FAD288254 /* PBXTargetDependency */,
+				A9796F406A3F39E62345F42B3A3F31C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Restaurant Roulette";
+			productName = "Pods-Restaurant Roulette";
+			productReference = DC24AF3205A4A82F4ED940D75C8667AB /* Pods_Restaurant_Roulette.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA119F35D4F6B91994A8BEA51405A4C9 /* OMGHTTPURLRQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D873EE5A8A2C60EF132902AC8754231 /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */;
+			buildPhases = (
+				89EEB3C5A32BF757FCB1EC503CFC5DC8 /* Sources */,
+				CEAC8BB2812A65F24B03DA85128BDFB2 /* Frameworks */,
+				B939DDA492EEB847DC85F90BF868470B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMGHTTPURLRQ;
+			productName = OMGHTTPURLRQ;
+			productReference = D5D480462AA1EE7FF3EE5C802EE8886C /* OMGHTTPURLRQ.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C68A4AF58153CA3E0E6D0B203F496A01 /* UberRides */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DC35561573A820DEDDA4374EA7D5DE /* Build configuration list for PBXNativeTarget "UberRides" */;
+			buildPhases = (
+				7B048922818ED606CC26544A68A08D93 /* Sources */,
+				C328156E1AAEEF689089D88516962511 /* Frameworks */,
+				9AAEDE33903FD0AD6158A46CC9E1A7BF /* Resources */,
+				66C99406536D781C19E246AB2BAA7998 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberRides;
+			productName = UberRides;
+			productReference = 10160A793EE97D5243B78321F68722BF /* UberRides.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 79DC4036138AD046FE252A36E131A6C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA119F35D4F6B91994A8BEA51405A4C9 /* OMGHTTPURLRQ */,
+				95400D4C2B1F4157F236F4FB0224FD6C /* Pods-Restaurant Roulette */,
+				45EDB53838A0C5CC1A75207ADC5BBA6B /* TDOAuth */,
+				C68A4AF58153CA3E0E6D0B203F496A01 /* UberRides */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AAEDE33903FD0AD6158A46CC9E1A7BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A2FA9A612C93769624146CF31284B6 /* en.lproj in Resources */,
+				3F192317B700624E2AC2637C9BD029CF /* Media.xcassets in Resources */,
+				7D58F8B13B9830A580DF0B5E96947FC2 /* zh-Hans.lproj in Resources */,
+				67C8FD2E1AB5F61F7FB566ED2B8199C0 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D2B52AA71CF11B939FE53DD9B71211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B690294A18B6AF2BDF3FC68DAFC968D /* Pods-Restaurant Roulette-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B048922818ED606CC26544A68A08D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83108CF51633C2BDB98287D2E9731106 /* ColorUtil.swift in Sources */,
+				C9AFFBFCA44ADBAAEBD13A4CD1EA3703 /* RequestButton.swift in Sources */,
+				3D0A786DAF3E4C58E0B71E688002FADA /* RequestDeeplink.swift in Sources */,
+				8E1E45B731E47BDFDEEA9EDAA0ED32EC /* RidesClient.swift in Sources */,
+				BF3E3ED390D49EF38321EB7DB27A6D67 /* UberRides-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EEB3C5A32BF757FCB1EC503CFC5DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A272897F8CC74CB7B33D6D91BFCDB6 /* OMGHTTPURLRQ-dummy.m in Sources */,
+				D3C791840CCF0ABD39E1BCA2B0FE2952 /* OMGUserAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B33368796D58B8B229F8C10ED6DA91B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91495A0B7A6E7D85F62B440C532E5962 /* TDOAuth-dummy.m in Sources */,
+				D6D299A2A4355B90CA4729B7B2491556 /* TDOAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16D58175312BE244FF39A19FAD288254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDOAuth;
+			target = 45EDB53838A0C5CC1A75207ADC5BBA6B /* TDOAuth */;
+			targetProxy = D4C0281A4753F8068454C9A25AE3B470 /* PBXContainerItemProxy */;
+		};
+		41E5AAD22CBFEF33D1CC18DCAE93563F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = BA119F35D4F6B91994A8BEA51405A4C9 /* OMGHTTPURLRQ */;
+			targetProxy = A89BD990EDA56D4402A1399747E67554 /* PBXContainerItemProxy */;
+		};
+		A944B69F6B313D06FBB1522E1B887057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = BA119F35D4F6B91994A8BEA51405A4C9 /* OMGHTTPURLRQ */;
+			targetProxy = ECD6E2EF1DE2CFE3BD24A26C9925BE9A /* PBXContainerItemProxy */;
+		};
+		A9796F406A3F39E62345F42B3A3F31C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UberRides;
+			target = C68A4AF58153CA3E0E6D0B203F496A01 /* UberRides */;
+			targetProxy = 2032B9779E353CA02616382D40EC993A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25D283BCA95130AAE8134C364EB250FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05991067E4A876CC75E0E1187AA5232 /* TDOAuth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TDOAuth/TDOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDOAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDOAuth/TDOAuth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TDOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4542727CD467C038507C9EC5ECC332C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AFA17716D87C285A6EEE29A5F08D5C /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OMGHTTPURLRQ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OMGHTTPURLRQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48E80E75119999CC210BFB89871C33B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DEB39C3FFC6901F4DFD416F38BCF66 /* UberRides.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UberRides/UberRides-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UberRides/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UberRides/UberRides.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UberRides;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51F7D727736E5AA273FE0B6FD47770C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41DEB39C3FFC6901F4DFD416F38BCF66 /* UberRides.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UberRides/UberRides-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UberRides/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UberRides/UberRides.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UberRides;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57E6794B60E2D1F523F51834FE513BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DEB3193F130A11E29A955E0DF7C703 /* Pods-Restaurant Roulette.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Restaurant Roulette/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Restaurant Roulette/Pods-Restaurant Roulette.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Restaurant_Roulette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A7287866E5AE884474946B92EB7F309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AFA17716D87C285A6EEE29A5F08D5C /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OMGHTTPURLRQ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OMGHTTPURLRQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B999F3F82ED7BED527D8803D916BC335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05991067E4A876CC75E0E1187AA5232 /* TDOAuth.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TDOAuth/TDOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDOAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDOAuth/TDOAuth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TDOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D151E52B6E8B2E79F6267D94C139607D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8520793347FDFBC4E1B65CAF5DF5AD84 /* Pods-Restaurant Roulette.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Restaurant Roulette/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Restaurant Roulette/Pods-Restaurant Roulette.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Restaurant_Roulette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FD3A2ECB92125A45FA70DDAAD7FA99 /* Build configuration list for PBXNativeTarget "TDOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25D283BCA95130AAE8134C364EB250FE /* Debug */,
+				B999F3F82ED7BED527D8803D916BC335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D873EE5A8A2C60EF132902AC8754231 /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7287866E5AE884474946B92EB7F309 /* Debug */,
+				4542727CD467C038507C9EC5ECC332C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DC35561573A820DEDDA4374EA7D5DE /* Build configuration list for PBXNativeTarget "UberRides" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51F7D727736E5AA273FE0B6FD47770C6 /* Debug */,
+				48E80E75119999CC210BFB89871C33B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F416C4FD947D97B9C23D41A1687C1B /* Build configuration list for PBXNativeTarget "Pods-Restaurant Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E6794B60E2D1F523F51834FE513BC5 /* Debug */,
+				D151E52B6E8B2E79F6267D94C139607D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
